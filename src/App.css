@@ -1,5 +1,23 @@
+body {
+background-color: rgba(76, 76, 207, 0.993);
+color: whitesmoke;
+}
+
+button {
+  margin-left: 10px;
+  color: rgb(58, 58, 209);
+  background-color: rgb(243, 237, 239);
+}
+
+button:hover{
+  margin-left: 10px;
+  color: rgb(6, 6, 22);
+  background-color: rgb(107, 98, 139)
+}
+
 .App {
   text-align: center;
+  padding-top: 100px;
 }
 
 .App-logo {
@@ -27,6 +45,21 @@
 .App-link {
   color: #61dafb;
 }
+.todoContainer {
+  justify-content: center;
+  align-items: center;
+}
+ .Gone {
+  border: black 2px solid;
+  border-radius: 10px;
+  max-width: 300px;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 500;
+  justify-items: center;
+} 
 
 @keyframes App-logo-spin {
   from {
